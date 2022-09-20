@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+namespace Project
+{
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+         #region Temp
+        //[Header("Temporary Things", order = 0)]
+        #endregion
+
+        #region Fields
+        //[Header("Fields", order = 1)]
+        #endregion
+
+        #region Functions
+        #NOTRIM#
+        #endregion
+        #NOTRIM#
+        #region Methods
+        void Start()
+        {
+            #NOTRIM#
+        }
+        void Update()
+        {
+            #NOTRIM#
+        }
+        #endregion
+    }
+}
+#ROOTNAMESPACEEND#
