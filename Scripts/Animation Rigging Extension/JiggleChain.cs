@@ -12,6 +12,8 @@ using Unity.Mathematics;
 /// NOTE: Implementation is only compatible with Animation Rigging package preview-0.2.1 [Unity 2019.2] and up.
 
 /// JiggleChainJob implements the jiggle chain algorithm that will be executed on the animator thread
+namespace Project.AnimationRiggingExtension
+{
 [BurstCompile]
 public struct JiggleChainJob : IWeightedAnimationJob
 {
@@ -321,3 +323,4 @@ public class JiggleChainBinder : AnimationJobBinder<JiggleChainJob, JiggleChainD
 [DisallowMultipleComponent]
 public class  JiggleChain : RigConstraint<JiggleChainJob, JiggleChainData, JiggleChainBinder>
 { }
+}
