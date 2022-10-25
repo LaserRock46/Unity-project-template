@@ -10,6 +10,7 @@
   "dependencies": {
     "com.unity.animation.rigging": "default",
     "com.unity.visualeffectgraph": "default",
+    "com.unity.inputsystem": "default",
     "com.unity.editorcoroutines": "default"
   }
 }
