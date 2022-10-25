@@ -1,0 +1,15 @@
+{
+  "name": "com.unity.feature.my-project",
+  "displayName": "My Project",
+  "version": "1.0.0",
+  "type": "feature",
+  "_upm": {
+    "quickstart": "https://docs.unity3d.com/2021.2/Documentation/Manual/MobileFeature.html"
+  },
+  "description": "Jan Pawel II",
+  "dependencies": {
+    "com.unity.animation.rigging": "default",
+    "com.unity.visualeffectgraph": "default",
+    "com.unity.editorcoroutines": "default"
+  }
+}
